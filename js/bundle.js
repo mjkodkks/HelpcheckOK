@@ -22,7 +22,7 @@ $("#submit").click(function() {
       .empty()
       .append(okText);
   } else {
-    $("dfbody").css("background", "");
+    $("body").css("background", "");
     $("#submit").removeClass("is-loading");
     var okText = $("<div></div>");
     okText.html("Error with " + "'" + input + "'");
